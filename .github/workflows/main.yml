@@ -18,4 +18,6 @@ jobs:
     - name: Run test
       run: npm test
     - name: Run app
+      run: npm run
+    - name: run the node app
       run: node app.js
